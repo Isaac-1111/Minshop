@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minishop - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="goto-here">
+    <!-- Top bar and navigation -->
+    <div class="py-1 bg-black">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+                <div class="col-lg-12 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                            <span class="text">+ 1235 2355 98</span>
+                        </div>
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                            <span class="text">youremail@email.com</span>
+                        </div>
+                        <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+                            <span class="text">3-5 Business days delivery &amp; Free Returns</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Minishop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalog</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                            <a class="dropdown-item" href="shop.html">Shop</a>
+                            <a class="dropdown-item" href="cart.html">Cart</a>
+                            <a class="dropdown-item" href="checkout.html">Checkout</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_6.jpg');">
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center">
+                <div class="col-md-9 ftco-animate text-center">
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Cart</span></p>
+                    <h1 class="mb-0 bread">My Cart</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Section -->
+    <section class="ftco-section ftco-cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ftco-animate">
+                    <div class="cart-list">
+						<table class="table">
+							<thead class="thead-primary">
+								<tr class="text-center">
+									<th>&nbsp;</th>
+									<th>Product</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody id="cart-items">
+								<!-- Cart items will be dynamically inserted here -->
+							</tbody>
+						</table>
+						
+						<div class="cart-total mb-3">
+							<p class="d-flex">
+								<span>Subtotal</span>
+								<span id="subtotal">$0.00</span>
+							</p>
+							<hr>
+							<p class="d-flex total-price">
+								<span>Total</span>
+								<span id="total">$0.00</span>
+							</p>
+						</div>
+                        
+            
+                    <p class="text-center"><a href="checkout.html" class="btn btn-primary py-3 px-4" id="checkout-button">Proceed to Checkout</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md text-center">
+                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Minishop</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  
+  </body>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const cartKey = "cart"; // Key for localStorage
+    const cart = JSON.parse(localStorage.getItem(cartKey)) || []; // Load cart from localStorage
+    const cartTableBody = document.getElementById("cart-items"); // Table body for cart items
+    const subtotalElement = document.getElementById("subtotal");
+    const totalElement = document.getElementById("total");
+
+    // Function to save the cart to localStorage
+    const saveCart = () => localStorage.setItem(cartKey, JSON.stringify(cart));
+
+    // Function to render cart items
+    const renderCart = () => {
+        cartTableBody.innerHTML = ""; // Clear current cart table
+        let subtotal = 0;
+
+        // If cart is empty, display a message
+        if (cart.length === 0) {
+            cartTableBody.innerHTML = `
+                <tr>
+                    <td colspan="5" class="text-center">Your cart is empty!</td>
+                </tr>
+            `;
+            subtotalElement.innerText = "$0.00";
+            totalElement.innerText = "$0.00";
+            return;
+        }
+
+        // Render each cart item
+        cart.forEach((item, index) => {
+            const row = document.createElement("tr");
+            row.classList.add("text-center");
+
+            row.innerHTML = `
+                <td>
+                    <a href="#" class="remove-item" data-index="${index}">
+                        <span class="ion-ios-close"></span>
+                    </a>
+                </td>
+                <td>${item.name}</td>
+                <td>$${item.price.toFixed(2)}</td>
+                <td>
+                    <input type="number" class="quantity form-control input-number" data-index="${index}" value="${item.quantity}" min="1">
+                </td>
+                <td>$<span class="item-total">${(item.price * item.quantity).toFixed(2)}</span></td>
+            `;
+
+            cartTableBody.appendChild(row);
+            subtotal += item.price * item.quantity; // Update subtotal
+        });
+
+        // Update subtotal and total
+        subtotalElement.innerText = `$${subtotal.toFixed(2)}`;
+        totalElement.innerText = `$${subtotal.toFixed(2)}`;
+    };
+
+    // Event listener for quantity changes
+    cartTableBody.addEventListener("input", (event) => {
+        if (event.target.classList.contains("quantity")) {
+            const index = event.target.dataset.index;
+            const newQuantity = parseInt(event.target.value) || 1;
+            cart[index].quantity = newQuantity; // Update quantity
+            saveCart(); // Save updated cart
+            renderCart(); // Re-render cart
+        }
+    });
+
+    // Event listener for removing items
+    cartTableBody.addEventListener("click", (event) => {
+        if (event.target.closest(".remove-item")) {
+            event.preventDefault();
+            const index = event.target.closest(".remove-item").dataset.index;
+            cart.splice(index, 1); // Remove item from cart
+            saveCart(); // Save updated cart
+            renderCart(); // Re-render cart
+        }
+    });
+
+    // Initial render of the cart
+    renderCart();
+});
+
+</script>
+
+</html>
